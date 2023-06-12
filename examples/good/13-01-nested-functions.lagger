@@ -1,0 +1,17 @@
+int nested_example(int x) {
+
+    int nested(int y) {
+        println(x+y);
+        return x + y;
+    }
+
+    return nested(2);
+}
+
+int main() {
+    println(nested_example(3));
+    if (nested_example(3) != 5) {
+        return 1;
+    }
+    return 0;
+}

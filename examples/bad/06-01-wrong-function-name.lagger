@@ -1,0 +1,11 @@
+int println(int n){
+    println(n);
+    return 1;
+}
+
+int main(){
+    int a;
+    a = 1;
+    println(a);
+    return 1;
+}

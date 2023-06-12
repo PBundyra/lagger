@@ -1,0 +1,16 @@
+int main(){
+    int a = 42;
+    int b;
+    b = a;
+    println(b);
+    string c = "Bonjour!";
+    string d;
+    d = c;
+    println(d);
+    boolean e = true;
+    boolean f;
+    f = e;
+    println(f);
+    return 0;
+}
+

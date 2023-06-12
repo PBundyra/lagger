@@ -1,0 +1,18 @@
+int main() {
+		int i = 0;
+		while (i < 10){
+				i = i + 1;
+				if (i < 5){
+						continue;
+				}
+				if (i == 5){
+						break;
+				}
+				println(i); // nigdy nie dojdzie do wypisania inta
+				return 1;
+		}
+		if (i != 5) {
+            return 1;
+        }
+		return 0;
+}

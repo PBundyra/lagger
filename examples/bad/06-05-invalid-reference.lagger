@@ -1,0 +1,9 @@
+int f(int & n){
+    n = 10;
+    return n;
+}
+
+int main(){
+    int x = f(2);
+    return 0;
+}

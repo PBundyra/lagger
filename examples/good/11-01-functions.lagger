@@ -1,0 +1,18 @@
+int questionOfLife() {
+    return 42;
+}
+
+string hello(){
+    return "Bonjour! :)";
+}
+
+boolean isEven(int number){
+    return number % 2 == 0;
+}
+
+int main() {
+    println(questionOfLife());
+    println(hello());
+    println(isEven(42));
+    return 0;
+}

@@ -1,0 +1,4 @@
+int Main(){
+    println("Hello World");
+    return 0;
+}

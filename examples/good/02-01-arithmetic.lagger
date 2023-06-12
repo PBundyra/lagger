@@ -1,0 +1,33 @@
+int main(){
+    int x = 1;
+    int y = 2;
+    int z = x + y;
+    if (z == 3){
+        println("OK");
+    } else {
+        error("ERROR");
+    }
+
+    z = 3 * 2;
+    if (z == 6){
+        println("OK");
+    } else {
+        error("ERROR");
+    }
+
+    z = 10 / 5;
+    if (z == 2){
+        println("OK");
+    } else {
+        error("ERROR");
+    }
+
+    z = 10 % 3;
+    if (z == 1){
+        println("OK");
+    } else {
+        error("ERROR");
+    }
+
+    return 0;
+}

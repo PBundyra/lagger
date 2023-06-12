@@ -1,0 +1,8 @@
+int main(){
+    int a = 1;
+    string b = "hello";
+    if (a == b){
+        println("a == b");
+    }
+    return 0;
+}

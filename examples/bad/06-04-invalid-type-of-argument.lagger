@@ -1,0 +1,9 @@
+int f(boolean t){
+    println(t);
+    return 0;
+}
+
+int main(){
+    f("true");
+    return 0;
+}

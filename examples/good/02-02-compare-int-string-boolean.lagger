@@ -1,0 +1,31 @@
+int main(){
+    if ("sameString" == "sameString") {
+        println("OK");
+    }
+    else {
+        error("ERROR");
+    }
+
+    if ("differentString" == "sameString"){
+        error("ERROR");
+    }
+    else {
+        println("OK");
+    }
+
+    if (true == true){
+        println("OK");
+    }
+    else {
+        error("ERROR");
+    }
+
+    if (true == false){
+        error("ERROR");
+    }
+    else {
+        println("OK");
+    }
+
+    return 0;
+}

@@ -1,0 +1,8 @@
+int invalid(int &x){
+    return x;
+}
+
+int main(){
+    invalid(1);
+    return 0;
+}

@@ -1,0 +1,17 @@
+int main(){
+    int i = 0;
+    int j = 0;
+    while (i < 10){
+        i = i + 1;
+        println("i = ");
+        println(i);
+        j = i;
+        while (j < 3 ){
+            j = j+1;
+            println("j = ");
+            println(j);
+            break;
+        }
+    }
+    return 0;
+}

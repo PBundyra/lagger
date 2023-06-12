@@ -1,0 +1,18 @@
+int f(){
+    println(0);
+    return 0;
+}
+
+int g(){
+    return f();
+}
+
+int main(){
+
+    int f(){
+        println(42);
+        return 1;
+    }
+
+    return g();
+}

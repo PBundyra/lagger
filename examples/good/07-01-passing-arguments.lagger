@@ -1,0 +1,31 @@
+int incrementByRef(int & x){
+    x = x + 1;
+    return x;
+}
+
+int incrementByVal(int x){
+    x = x + 1;
+    return x;
+}
+
+int doubleReference(int &x, int &y){
+    x = x + 1;
+    y = y + 1;
+    return x + y;
+}
+
+int main(){
+    int a = 1;
+    println(a);
+
+    incrementByRef(a);
+    println(a);
+
+    doubleReference(a, a);
+    println(a);
+
+    incrementByVal(a);
+    println(a);
+
+    return 0;
+}

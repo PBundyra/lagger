@@ -1,0 +1,18 @@
+int main() {
+    int x = 1;
+
+    int global(){
+            x = x + 1;
+            println(x);
+            return 0;
+    }
+
+    int local(){
+            int x = 10;
+            println(x);
+            return 0;
+    }
+    global();
+    local();
+    return 0;
+}

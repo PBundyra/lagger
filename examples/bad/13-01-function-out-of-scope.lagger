@@ -1,0 +1,13 @@
+int main(){
+
+    int f(){
+
+        int g(){
+            return 1;
+        }
+
+        return g(); // to jest ok
+    }
+
+    return g(); // tego juz nie widzimy
+}

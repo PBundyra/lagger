@@ -1,0 +1,9 @@
+int main(){
+    int a;
+    string b;
+    boolean c;
+    println(a);
+    println(b);
+    println(c);
+    return 0;
+}

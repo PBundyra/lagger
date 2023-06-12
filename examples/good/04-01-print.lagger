@@ -1,0 +1,7 @@
+int main(){
+    println(42);
+    println("Bonjour!");
+    println(true);
+    return 0;
+}
+

@@ -1,0 +1,11 @@
+int main(){
+    string a = "Bonjour";
+    string b = " :)";
+    println(a + b);
+
+    if ( a + b != "Bonjour :)" ) {
+        error("ERROR");
+    }
+
+    return 0;
+}

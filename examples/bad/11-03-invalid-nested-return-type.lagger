@@ -1,0 +1,11 @@
+int f(){
+    string g() {
+        return "hello";
+    }
+    return g();
+}
+
+int main(){
+    println(f());
+    return f();
+}
